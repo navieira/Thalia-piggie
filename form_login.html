@@ -16,21 +16,21 @@
         <br>
     </did>
 
-    <form method="post">
+    <form action method="post">
         <fieldset class="grupo">
             <div class="campo">
                 <label for="nome"><strong>Nome</strong></label>
-                <input type="text" class="form-control" id="Nome" required><br>
+                <input type="text" class="form-control" id="Nome" name="nome" required><br>
             </div>
 
             <div class="campo">
                 <label for="Sobrenome"><strong>Sobrenome</strong></label>
-                <input type="text" class="form-control" id="Sobreome" required><br>
+                <input type="text" class="form-control" id="Sobreome" name="sobrenome" required><br>
             </div>
         
             <div class="campo">
                 <label for="Email"><strong>Email</strong></label>
-                <input type="email"  id="Email" required><br>
+                <input type="email"  id="Email" name="email" required><br>
             </div>
         </fieldset>
     
@@ -93,7 +93,7 @@
             
                 <div class="campo">
                    <label for="CPF"><strong>CPF</strong></label>
-                   <input type="text" id="CPF" required><br>
+                   <input type="text" id="CPF" name="CPF" required><br>
                 </div>
             </fieldset>
 
@@ -102,3 +102,16 @@
                     <label for="Tel"><strong>Tel</strong></label>
                     <input type="tel" id="Tel" required><br>
                  </div>
+             
+                 <div class="campo">
+                    <label for="Celular"><strong>Celular</strong></label>
+                    <input type="tel"  id="Celular"  name="Celular" required><br>
+                 </div>
+            </fieldset>
+
+        <button class="button" type="submit">Concluir</button>
+    </form>
+</body>
+
+
+</html>
